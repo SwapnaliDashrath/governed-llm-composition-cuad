@@ -1,0 +1,31 @@
+# Never commit keys or local settings
+.env
+*.key
+secrets*
+
+# CUAD data: download it yourself (see README)
+data/*
+!data/README.md
+
+# API reply cache: large, rebuilt on demand
+cache/
+results*/cache/
+**/cache/
+
+# Local run outputs (published results live in results/)
+results_full/
+results_sonnet/
+results_subset40/
+results_mock/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Old versions and OS files
+*_old.py
+desktop.ini
+.DS_Store
+Thumbs.db

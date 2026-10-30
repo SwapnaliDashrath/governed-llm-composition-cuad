@@ -1,0 +1,4 @@
+anthropic>=0.40
+matplotlib>=3.7
+# Optional, only for --provider openai:
+# openai>=1.40
